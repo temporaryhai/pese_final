@@ -1,0 +1,104 @@
+
+#projects{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100vw;
+  text-shadow: 2px 2px 100px rgb(225, 181, 247);
+  justify-content:space-around;
+}
+
+.horizontal {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.horizontal-heading{
+  margin: 1vh 0 4vh 8vw;
+  z-index: 100;
+
+}
+
+.horizontal-scroll {
+  display: flex;
+  scroll-behavior: smooth;
+  width: max-content; 
+  background: #ce50a8;
+  flex-wrap: nowrap;
+  will-change: transform;
+}
+
+.h-section {
+  width: 60vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: #1b1b1b;
+  border: 0.01vh solid white;
+
+}
+
+/* Background Colors (Optional) */
+.h-section:nth-child(1) { background: #1E1E1E; }
+.h-section:nth-child(2) { background: #333333; }
+.h-section:nth-child(3) { background: #555555; }
+.h-section:nth-child(4) { background: #777777; }
+.h-section:nth-child(5) { background: #999999; }
+.h-section:nth-child(6) { background: #BBBBBB; }
+
+#pr{
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.abc{
+  height: 100vh;
+  
+}
+
+#a{ background: #dc4f4f; }
+#b{ background: #408c2d; }
+#c{ background: #0f6b85; }
+#d{ background: #97b813; }
+
+*{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+.progress-container {
+  position: absolute;
+  top: 40px;
+  left: 5vw;
+  width: 90vw;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background: #ce50a8;
+  transition: width 0.3s ease;
+}
+
+/* Checkpoints */
+.checkpoint {
+  position: absolute;
+  top: -5px;
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.checkpoint.active {
+  background: rgb(240, 146, 96);
+}
