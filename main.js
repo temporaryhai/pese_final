@@ -672,4 +672,10 @@ window.addEventListener("load", () => {
     setTimeout(startBlinking, 150);
 });
 
-
+document.addEventListener("visibilitychange", function() {
+      if (document.hidden) {
+        document.title = "I Miss Youu!!";
+      } else {
+        document.title = "Angad Singh";
+      }
+    });
