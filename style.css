@@ -1543,11 +1543,11 @@ footer {
 
     /* Eye Structure (Vertically Oval) */
     .eye {
-        width: 35vw;
-        height: 10vh;
+        width: 30vw;
+        height: 20vh;
         /* Taller height for an oval shape */
         background: rgba(255, 255, 255, 0.84);
-        border-radius: 80px / 50px;
+        border-radius: 90px / 150px;
         /* Makes it vertically oval */
         display: flex;
         justify-content: center;
@@ -1561,7 +1561,7 @@ footer {
     /* Pupil */
     .pupil {
         width: 7.5vw;
-        height: 2.5vh;
+        height: 4vh;
         /* Slightly oval pupil */
         background: black;
         border-radius: 50%;
