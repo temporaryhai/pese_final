@@ -674,7 +674,7 @@ window.addEventListener("load", () => {
 
 document.addEventListener("visibilitychange", function() {
       if (document.hidden) {
-        document.title = "I Miss Youu!!";
+        document.title = "I Miss Youu !! Come Back !!";
       } else {
         document.title = "Angad Singh";
       }
